@@ -1,5 +1,13 @@
 # Android Clean Architecture Kotlin
-This repository demonstrates the implementation of a clean architecture approach for an Android application using Kotlin. It includes all the boilerplate code for API integration and follows the architectural pattern with Use Cases, utilizing Retrofit for API calls, Koin for dependency injection, and Kotlin Flows and Coroutines for asynchronous operations.
+This repository demonstrates the implementation of a clean architecture approach for an Android application using Kotlin. It includes all the boilerplate code for API integration and follows the architectural pattern with Use Cases, utilizing Retrofit for API calls, Koin for dependency injection, and Kotlin Flows and Coroutines for asynchronous operations. I've used dummy api's from here : https://dummyjson.com/docs
+
+This is much simple and perfect example of clean architecture with only two screens. So anyone can clone this repo and start their own project.
+
+# Screenshots
+<p align="start">
+  <img src="https://github.com/user-attachments/assets/122307be-b26f-4734-b0f6-3a02824f0b44" width="250">
+  <img src="https://github.com/user-attachments/assets/213ddab7-deb8-4856-99c0-c603bca00f96" width="250">
+</p>
 
 # Features
 
@@ -48,7 +56,7 @@ App.kt: The application class for initializing the app.
 
 # Usage
 
-Replace the base URL in data/api/ApiService.kt with your API's base URL.
+Replace the base URL in data/network/RetrofitApiClient.kt with your API's base URL.
 
 Define your API endpoints in ApiService.kt.
 
@@ -60,19 +68,15 @@ Define your use cases in the domain/usecase package.
 
 Implement your ViewModels in the presentation/viewmodel package.
 
-Update the UI in the presentation/view package as needed.
+Update the UI in the presentation/ui package as needed.
 
 # Dependency Injection with Koin
 
 Dependencies are managed using Koin. Modules are defined in the di package. To add a new dependency:
 
-Create a new Koin module in the di package.
+Define your dependency in the KoinModule.kt.
 
-Define your dependency in the module.
-
-Add the module to the startKoin function in App.kt.
-
-Asynchronous Operations with Kotlin Flows and Coroutines
+# Asynchronous Operations with Kotlin Flows and Coroutines
 
 Kotlin Flows and Coroutines are used to handle asynchronous operations. Use Flows for data streams and Coroutines for background tasks. Example usage can be found in the repository and viewmodel packages.
 
