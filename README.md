@@ -1,6 +1,7 @@
 # Android-Clean-Architecture
 
 This repository demonstrates a clean architecture approach in an Android project using Kotlin. The app is a simple two-screen application that integrates with APIs from DummyJSON to showcase the clean architecture pattern. It is designed to be a starting point for anyone looking to build an Android app following best practices and utilizing modern Android development tools and libraries.
+
 Dummyjson for API's : https://dummyjson.com/docs/auth
 
 # ScreenShots
