@@ -24,7 +24,7 @@ Dummyjson for API's : https://dummyjson.com/docs/auth
 
 # Directory Structure
 <p align="start">
-  <img src="https://github.com/user-attachments/assets/b1c59fa4-5b4d-4f22-91e3-2bf2aefc4574" width="250">
+  <img src="https://github.com/user-attachments/assets/179ad74c-63d3-4d85-9109-fb8c72b7a001" width="250">
 </p>
 
 # Getting Started
