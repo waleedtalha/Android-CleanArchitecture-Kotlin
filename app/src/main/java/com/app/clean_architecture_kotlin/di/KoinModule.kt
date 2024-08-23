@@ -1,4 +1,4 @@
-package com.app.clean_architecture_kotlin.data.di
+package com.app.clean_architecture_kotlin.di
 
 import com.app.clean_architecture_kotlin.data.network.RemoteDataSource
 import com.app.clean_architecture_kotlin.data.network.provideApi
